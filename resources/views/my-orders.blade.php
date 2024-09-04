@@ -27,8 +27,8 @@
                 <tr>
                     <th>ID</th>
                     <th>Datum</th>
-                    <th>Ukupno</th>
-                    <th>Ukupno</th>
+                    <th>Ukupno €</th>
+                    <th>Ukupno BAM</th>
                     <th>Stavke</th>
                 </tr>
             </thead>
