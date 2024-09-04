@@ -37,6 +37,7 @@
                         <td>{{ $order->id }}</td>
                         <td>{{ $order->created_at->format('d-m-Y H:i:s') }}</td>
                         <td>{{ number_format($order->total, 2) }} €</td>
+                        <td>{{ number_format($order->total * 2, 2) }} KM</td>
                         <td>
                             <ul>
                                 @foreach ($order->items as $item)
